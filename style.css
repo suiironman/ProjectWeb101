@@ -1,5 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    background: #0c9;
+}
+
+nav li {
+    margin: 1.5rem;
+    list-style: none;
+
+}
+
+nav a {
+    font-size: 15px;
+    color: rgb(25, 24, 24);
+    text-decoration: none;
+}
+
+.header-info {
+    background-image: url(https://jus.coj.go.th/coop/img/mini1.png);
+}
+
+.header-info img{
+    padding: 3rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    background: #C2F3C5;
+}
+
+.content1 img {
+    padding: 1rem 1rem;
+    width: 370px;
+    max-width: 100%;
+}
+
+.content2 img {
+    padding: 1rem 1rem;
+    width: 370px;
+    max-width: 100%;
+}
+
+.content3 img {
+    padding: 1rem 1rem;
+    width: 370px;
+    max-width: 100%;
+}
+
+.content-text {
+    width: 100%;
+    display: inline-block;
+    background-image: url(https://jus.coj.go.th/coop/img/mini1.png);
+}
+
+.news h2 {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container-info img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin: 10px 10px;
+}
+
+.container-info {
+    margin: 1rem 8rem;
+    border-radius: 5px;
+    background: white;
+}
+
+.container-info li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px;
+}
+
+.background-text1 {
+    background: rgb(233, 233, 233);
+}
+
+.container-info a {
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
