@@ -28,12 +28,12 @@ header {
     justify-content: space-between;
 }
 .navbar-top a {
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     width: 100%;
     color: rgb(25, 24, 24);
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 12px 10px;
 }
 
 .navbar-top a:hover {
