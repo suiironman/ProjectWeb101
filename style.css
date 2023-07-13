@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -19,22 +20,25 @@ header {
     margin: 1rem auto;
 }
 
-nav ul {
+.navbar-top {
+    align-items: center;
+    background-color: #0c9;
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
-    background: #0c9;
 }
-
-nav li {
-    margin: 1.5rem;
-    list-style: none;
-
-}
-
-nav a {
+.navbar-top a {
     font-size: 15px;
+    text-align: center;
+    width: 100%;
     color: rgb(25, 24, 24);
     text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar-top a:hover {
+    background-color: #49BF4C;
+    color: white;
 }
 
 .header-info {
@@ -53,19 +57,7 @@ section {
     background: #C2F3C5;
 }
 
-.content1 img {
-    padding: 1rem 1rem;
-    width: 370px;
-    max-width: 100%;
-}
-
-.content2 img {
-    padding: 1rem 1rem;
-    width: 370px;
-    max-width: 100%;
-}
-
-.content3 img {
+.content1 img, .content2 img, .content3 img {
     padding: 1rem 1rem;
     width: 370px;
     max-width: 100%;
@@ -92,7 +84,7 @@ section {
 }
 
 .container-info {
-    margin: 1rem 15rem;
+    margin: 1rem 12rem;
     border-radius: 5px;
     background: white;
 }
@@ -116,3 +108,99 @@ section {
     font-weight: bold;
 }
 
+.container-info a:hover {
+    color: #0c9;
+}
+
+.bottom-img {
+    background-image: url(https://img.freepik.com/free-photo/tourism-guangzhou-rivers-city-river_1417-54.jpg?w=2000&t=st=1689146241~exp=1689146841~hmac=e777124dfbe058cbfc00d16fe02b698ce194712a4187ade1bdd18c7871eb1139);
+    background-size: cover;
+    padding: 10px;
+}
+
+.bottom-img a {
+    padding: 10px 5px;
+}
+
+.bottom-img a img {
+    max-width: 100%;
+}
+
+.footer-main {
+    background-image: url(https://img.freepik.com/free-vector/silhouette-skyline-illustration_53876-78786.jpg?w=1800&t=st=1689149028~exp=1689149628~hmac=6fdd472617067bc15a30c93262dbe6f9ae56f563455dd1844bf611f2a7bc751f);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    height: auto;
+}
+
+.footer-container1 {
+    width: 380px;
+    padding: 25px;
+}
+
+.footer-container1 h4 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.footer-container1 i {
+    font-size: 25px;
+    color: rgb(3, 157, 26);
+}
+
+.container-info-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-info-text img {
+    width: 150px;
+    height: 100px;
+}
+
+.container-info-text p {
+    font-size: 17px;
+    width: 200px;
+    height: 120px;
+}
+
+.footer-container2 {
+    width: 380px;
+    padding: 37px;
+}
+
+.footer-container3 {
+    width: 380px;
+    padding: 25px;
+}
+
+.footer-container3 img { 
+    margin: 20px 20px;
+    width: 300px;
+}
+
+.icon-location, .icon-mail, .icon-phone, .icon-fax {
+    display: flex;
+    margin-top: 10px;
+}
+
+.icon-location img, .icon-mail img, .icon-phone img, .icon-fax img {
+    padding-right: 10px;
+}
+
+.icon-location p, .icon-mail p, .icon-phone p, .icon-fax p {
+    font-size: 14px;
+}
+
+.icon-social {
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon-social img {
+    cursor: pointer;
+    padding: 5px;
+    width: 55px;
+}
